@@ -4,6 +4,12 @@
   "description": "dummy description",
   "main": "index.js",
   "dependencies": {
-    "hello-world": "*"
-  }
+    "hello-world": "*",
+    "snyk": "^1.230.5"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

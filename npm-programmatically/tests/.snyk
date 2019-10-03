@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - hello-world > teleport > npm > libcipm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > pacote > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > libnpmaccess > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > npm-profile > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > libnpmorg > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libcipm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > libnpmpublish > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > pacote > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > libnpmhook > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
+    - hello-world > teleport > npm > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
+        patched: '2019-10-03T23:20:01.740Z'
