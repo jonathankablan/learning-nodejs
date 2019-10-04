@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "description": "Testing JWT Authentication via Google Apis.",
   "dependencies": {
-    "googleapis": "*"
-  }
+    "googleapis": "*",
+    "snyk": "^1.230.5"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
